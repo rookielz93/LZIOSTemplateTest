@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'PROJECT_Example' do
+  #pod 'PROJECT_Example', :path => '../'
+  pod 'LZIOSCommon', '0.1.5'
+
+  target 'PROJECT_Tests' do
+    inherit! :search_paths
+
+    #${INCLUDED_PODS}
+  end
+end
