@@ -8,7 +8,7 @@
 
 #import "CPDHomeViewController.h"
 #import "LZPageModel.h"
-#import "LZTestPage.h"
+#import "CPDTestPage.h"
 
 #define kCellId @"kCellId"
 
@@ -38,7 +38,7 @@
 - (void)dataInit {
     [super dataInit];
     
-    NSArray *idens = @[ NSStringFromClass(LZTestPage.class) ];
+    NSArray *idens = @[ NSStringFromClass(CPDTestPage.class) ];
     NSArray *titles = idens;
     for (int i=0; i<titles.count; i++) {
         LZPageModel *m = [LZPageModel new];

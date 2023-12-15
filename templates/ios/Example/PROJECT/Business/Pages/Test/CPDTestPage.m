@@ -1,18 +1,18 @@
 //
-//  LZTestPage.m
+//  CPDTestPage.m
 //  PROJECT_Example
 //
 //  Created by 金胜利 on 2023/12/15.
 //  Copyright © 2023 PROJECT_OWNER. All rights reserved.
 //
 
-#import "LZTestPage.h"
+#import "CPDTestPage.h"
 
-@interface LZTestPage ()
+@interface CPDTestPage ()
 
 @end
 
-@implementation LZTestPage
+@implementation CPDTestPage
 
 - (void)viewDidLoad {
     [super viewDidLoad];

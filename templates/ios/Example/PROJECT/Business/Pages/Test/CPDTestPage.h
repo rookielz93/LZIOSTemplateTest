@@ -1,5 +1,5 @@
 //
-//  LZTestPage.h
+//  CPDTestPage.h
 //  PROJECT_Example
 //
 //  Created by 金胜利 on 2023/12/15.
@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LZTestPage : LZBusinessViewController
+@interface CPDTestPage : LZBusinessViewController
 
 @end
 

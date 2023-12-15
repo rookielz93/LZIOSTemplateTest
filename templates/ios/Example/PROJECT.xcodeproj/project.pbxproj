@@ -133,7 +133,6 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* PROJECT */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
@@ -175,7 +174,6 @@
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
-			name = "PROJECT";
 			path = PROJECT;
 			sourceTree = "<group>";
 		};
@@ -207,13 +205,6 @@
 				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
 		F4D9236EE4667C1622F49F22 /* Pods */ = {

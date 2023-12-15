@@ -36,7 +36,7 @@
                     <navigationItem key="navigationItem" id="0du-p7-R1C"/>
                     <connections>
                         <outlet property="tableView" destination="7zU-Xf-gzd" id="Bwi-za-2hU"/>
-                        <segue destination="xyg-fi-asW" kind="custom" identifier="LZTestPage" customClass="PushSegue" id="s0L-y1-vYB"/>
+                        <segue destination="xyg-fi-asW" kind="custom" identifier="CPDTestPage" customClass="PushSegue" id="s0L-y1-vYB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
