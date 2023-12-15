@@ -46,7 +46,7 @@
         <!--Test Page-->
         <scene sceneID="tFD-TQ-Yqp">
             <objects>
-                <viewController storyboardIdentifier="LZTestPage" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xyg-fi-asW" customClass="LZTestPage" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CPDTestPage" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xyg-fi-asW" customClass="CPDTestPage" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xk3-Mk-pmD"/>
                         <viewControllerLayoutGuide type="bottom" id="Ozi-E7-QNC"/>

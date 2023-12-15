@@ -96,8 +96,25 @@ RUBY
       File.rename(project_folder + "/PROJECT.xcodeproj", project_folder + "/" +  @configurator.pod_name + ".xcodeproj")
 
       unless @remove_demo_target
+        # change Main.storyboard content prefixes
+        ["Base.lproj/Main.storyboard"].each do |file|
+          path = project_folder + "/PROJECT/" + file
+          next unless File.exist? path
+ 
+          File.open(path, "r:utf-8") do |lines|     #r:utf-8表示以utf-8编码读取文件，要与当前代码文件的编码相同
+            buffer = lines.read.gsub("CPD", prefix) #将文件中所有的CPD替换为prefix，并将替换后文件内容赋值给buffer
+            File.open(path, "w"){|l|                #以写的方式打开文件，将buffer覆盖写入文件
+              l.write(buffer)
+            }
+          end
+        end
+
         # change app file prefixes
-        ["CPDAppDelegate.h", "CPDAppDelegate.m", "CPDViewController.h", "CPDViewController.m"].each do |file|
+        ["CPDAppDelegate.h", "CPDAppDelegate.m", 
+        "Business/Pages/Home/CPDHomeViewController.h", 
+        "Business/Pages/Home/CPDHomeViewController.m", 
+        "Business/Pages/Test/CPDTestPage.h", 
+        "Business/Pages/Test/CPDTestPage.m"].each do |file|
           before = project_folder + "/PROJECT/" + file
           next unless File.exist? before
 
