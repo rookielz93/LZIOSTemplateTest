@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		34A3DE452B2BFEAF00E535CB /* LZTestPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A3DE442B2BFEAF00E535CB /* LZTestPage.m */; };
+		34A3DE452B2BFEAF00E535CB /* CPDTestPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A3DE442B2BFEAF00E535CB /* CPDTestPage.m */; };
 		58EB20B904CEE76FA24637ED /* Pods_PROJECT_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73002E5A067BB0B676FC8C3A /* Pods_PROJECT_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* LZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* LZAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* LZHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* LZHomeViewController.m */; };
+		6003F59E195388D20070C39A /* CPDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* CPDAppDelegate.m */; };
+		6003F5A7195388D20070C39A /* CPDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* CPDHomeViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -38,8 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		34A3DE432B2BFEAF00E535CB /* LZTestPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZTestPage.h; sourceTree = "<group>"; };
-		34A3DE442B2BFEAF00E535CB /* LZTestPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZTestPage.m; sourceTree = "<group>"; };
+		34A3DE432B2BFEAF00E535CB /* CPDTestPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPDTestPage.h; sourceTree = "<group>"; };
+		34A3DE442B2BFEAF00E535CB /* CPDTestPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPDTestPage.m; sourceTree = "<group>"; };
 		357FD34490C51773859ACDB6 /* Pods-PROJECT_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PROJECT_Example.release.xcconfig"; path = "Target Support Files/Pods-PROJECT_Example/Pods-PROJECT_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4CE7A483A205D94294B1D466 /* Pods-PROJECT_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PROJECT_Tests.release.xcconfig"; path = "Target Support Files/Pods-PROJECT_Tests/Pods-PROJECT_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* PROJECT_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PROJECT_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,10 +50,10 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* PROJECT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PROJECT-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* LZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* LZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* LZHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZHomeViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* LZHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZHomeViewController.m; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* CPDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPDAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* CPDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPDAppDelegate.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* CPDHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPDHomeViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* CPDHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPDHomeViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* PROJECT_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PROJECT_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +115,8 @@
 		34A3DE402B2BFDE800E535CB /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5A5195388D20070C39A /* LZHomeViewController.h */,
-				6003F5A6195388D20070C39A /* LZHomeViewController.m */,
+				6003F5A5195388D20070C39A /* CPDHomeViewController.h */,
+				6003F5A6195388D20070C39A /* CPDHomeViewController.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -124,8 +124,8 @@
 		34A3DE422B2BFE0100E535CB /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				34A3DE432B2BFEAF00E535CB /* LZTestPage.h */,
-				34A3DE442B2BFEAF00E535CB /* LZTestPage.m */,
+				34A3DE432B2BFEAF00E535CB /* CPDTestPage.h */,
+				34A3DE442B2BFEAF00E535CB /* CPDTestPage.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -134,7 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* Example for PROJECT */,
+				6003F593195388D20070C39A /* PROJECT */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
@@ -164,18 +164,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6003F593195388D20070C39A /* Example for PROJECT */ = {
+		6003F593195388D20070C39A /* PROJECT */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* LZAppDelegate.h */,
-				6003F59D195388D20070C39A /* LZAppDelegate.m */,
+				6003F59C195388D20070C39A /* CPDAppDelegate.h */,
+				6003F59D195388D20070C39A /* CPDAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				34A3DE3E2B2BFDBD00E535CB /* Business */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
-			name = "Example for PROJECT";
+			name = "PROJECT";
 			path = PROJECT;
 			sourceTree = "<group>";
 		};
@@ -401,9 +401,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* LZAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* LZHomeViewController.m in Sources */,
-				34A3DE452B2BFEAF00E535CB /* LZTestPage.m in Sources */,
+				6003F59E195388D20070C39A /* CPDAppDelegate.m in Sources */,
+				6003F5A7195388D20070C39A /* CPDHomeViewController.m in Sources */,
+				34A3DE452B2BFEAF00E535CB /* CPDTestPage.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,25 +1,25 @@
 //
-//  LZHomeViewController.m
+//  CPDHomeViewController.m
 //  PROJECT
 //
 //  Created by PROJECT_OWNER on TODAYS_DATE.
 //  Copyright (c) TODAYS_YEAR PROJECT_OWNER. All rights reserved.
 //
 
-#import "LZHomeViewController.h"
+#import "CPDHomeViewController.h"
 #import "LZPageModel.h"
 #import "LZTestPage.h"
 
 #define kCellId @"kCellId"
 
-@interface LZHomeViewController () <UITableViewDelegate, UITableViewDataSource>
+@interface CPDHomeViewController () <UITableViewDelegate, UITableViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSMutableArray <LZPageModel *>*dataSource;
 
 @end
 
-@implementation LZHomeViewController
+@implementation CPDHomeViewController
 
 - (void)dealloc {
     

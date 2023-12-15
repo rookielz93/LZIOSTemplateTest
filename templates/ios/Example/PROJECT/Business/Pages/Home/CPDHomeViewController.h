@@ -1,5 +1,5 @@
 //
-//  LZAppDelegate.h
+//  CPDHomeViewController.h
 //  PROJECT
 //
 //  Created by PROJECT_OWNER on TODAYS_DATE.
@@ -7,9 +7,8 @@
 //
 
 @import UIKit;
+#import "LZBusinessViewController.h"
 
-@interface LZAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface CPDHomeViewController : LZBusinessViewController
 
 @end
